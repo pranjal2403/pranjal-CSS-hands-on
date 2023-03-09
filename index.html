@@ -33,14 +33,18 @@
   <!-- Understand Absolute versus Relative Units -->
   <!--Style the HTML Body Element-->
   <!-- Inherit Styles from the Body Element -->
+  <!-- Prioritize One Style Over Another -->
   <body>
     <style>
       body {
         background-color: black;
-        color: green;
         font-family: monospace;
+        color: green;
+      }
+      .pink-text {
+        color: pink;
       }
     </style>
-    <h1>Hello World</h1>
+    <h1 class="pink-text">Hello World!</h1>
   </body>
 </html>

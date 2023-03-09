@@ -34,6 +34,7 @@
   <!--Style the HTML Body Element-->
   <!-- Inherit Styles from the Body Element -->
   <!-- Prioritize One Style Over Another -->
+  <!-- Override Styles in Subsequent CSS -->
   <body>
     <style>
       body {
@@ -44,7 +45,10 @@
       .pink-text {
         color: pink;
       }
+      .blue-text {
+        color: blue;
+      }
     </style>
-    <h1 class="pink-text">Hello World!</h1>
+    <h1 class="pink-text blue-text">Hello World!</h1>
   </body>
 </html>
